@@ -3,6 +3,16 @@ const axios = require('axios')
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
+const express = require('express');
+const app = express();
+const product = require('./api/product');
+
+app.use(express.json({ extended: false }));
+
+app.use('/api/product', product);
+
+const PORT = process.env.PORT || 8080;
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 
 function getPrices() {
