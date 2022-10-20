@@ -1,10 +1,4 @@
-# Cryptocurrency Price Status Discord Bot
-
-This bot will update its status message with the current price of the desired cryptocurrency.
-
-Is based on [Minecraft Player Count Discord Bot](https://github.com/SpencerTorres/Minecraft-Player-Count-Discord-Bot) by Spencer Torres
-
-![Example bot setup.](https://i.imgur.com/aDy2dpj.png)
+# XDC Price Bot
 
 ## How to use
 
